@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  margin: 50px auto;
+}
+.wrapper {
+  width: 1440px;
+  height: 597px;
+  background-color: #ffffff;
+  margin: 0px auto;
+  padding: 30px 120px 52px 120px;
+}
+.header {
+  height: 53px;
+  border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+  margin-bottom: 12px;
+}
+.header-logo {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 229px;
+}
+.header-navigation {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 255px;
+}
+.header-navigation li {
+  display: inline-block;
+  vertical-align: top;
+}
+.header-navigation a {
+  text-decoration: none;
+  color: #3d3d3d;
+  font-size: 16px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+}
+.header-navigation a:hover {
+  border-bottom: 3px solid #46a358;
+}
+
+.login {
+  color: #ffffff;
+  background-color: #46a358;
+  border-radius: 6px;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 17px 7px 17px;
+}
+.login img {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 4px;
+}
+.planet {
+  width: 1200px;
+  height: 450px;
+  background-color: rgba(245, 245, 245, 0.5);
+}
+.planet-info {
+  width: 650px;
+  display: inline-block;
+  vertical-align: top;
+}
+.welcome {
+  height: 16px;
+  color: #3d3d3d;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-top: 68px;
+  padding-left: 43px;
+  margin: 0;
+}
+.section-title {
+  display: inline-block;
+  vertical-align: baseline;
+  font-weight: bold;
+  font-size: 70px;
+  text-transform: uppercase;
+  padding-top: 23px;
+  padding-left: 40px;
+  margin: 0;
+}
+.title-span {
+  display: inline-block;
+  vertical-align: baseline;
+  color: #46a358;
+}
+.section-description {
+  width: 557px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #727272;
+  padding-left: 43px;
+  padding-top: 5px;
+  margin: 0;
+}
+
+.shop-now-link {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  background: #46a358;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  padding: 11px 27px 9px 26px;
+  margin-top: 44px;
+  margin-left: 41px;
+}
