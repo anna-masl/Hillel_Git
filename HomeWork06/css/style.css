@@ -3,18 +3,20 @@
 }
 .body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
-  margin: 50px auto;
+  /* background-color: black;
+  margin: 50px auto; */
+  margin: 0;
 }
 .wrapper {
-  width: 1440px;
-  height: 597px;
+  width: 1200px;
+  /* height: 597px; */
   background-color: #ffffff;
   margin: 0px auto;
-  padding: 30px 120px 52px 120px;
+  /* padding: 30px 120px 52px 120px; */
 }
 .header {
   height: 53px;
+  margin-top: 30px;
   border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
   margin-bottom: 12px;
 }
@@ -32,14 +34,15 @@
   display: inline-block;
   vertical-align: top;
 }
-.header-navigation a {
+.menu a {
   text-decoration: none;
   color: #3d3d3d;
   font-size: 16px;
   padding-bottom: 20px;
-  padding-right: 50px;
+  margin-right: 50px;
+  /* padding-right: 50px; */
 }
-.header-navigation a:hover {
+.menu a:hover {
   border-bottom: 3px solid #46a358;
 }
 
@@ -60,8 +63,8 @@
   padding-right: 4px;
 }
 .planet {
-  width: 1200px;
-  height: 450px;
+  /* width: 1200px;
+  height: 450px; */
   background-color: rgba(245, 245, 245, 0.5);
 }
 .planet-info {
