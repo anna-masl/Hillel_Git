@@ -3,16 +3,12 @@
 }
 .body {
   font-family: Arial, Helvetica, sans-serif;
-  /* background-color: black;
-  margin: 50px auto; */
   margin: 0;
 }
 .wrapper {
   width: 1200px;
-  /* height: 597px; */
   background-color: #ffffff;
   margin: 0px auto;
-  /* padding: 30px 120px 52px 120px; */
 }
 .header {
   height: 53px;
@@ -40,7 +36,6 @@
   font-size: 16px;
   padding-bottom: 20px;
   margin-right: 50px;
-  /* padding-right: 50px; */
 }
 .menu a:hover {
   border-bottom: 3px solid #46a358;
@@ -63,8 +58,6 @@
   padding-right: 4px;
 }
 .planet {
-  /* width: 1200px;
-  height: 450px; */
   background-color: rgba(245, 245, 245, 0.5);
 }
 .planet-info {
