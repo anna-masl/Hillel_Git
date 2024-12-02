@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.wrapper {
+  width: 1200px;
+  background-color: #ffffff;
+  margin: 0px auto;
+}
+.left-box {
+  width: 310px;
+  float: left;
+  background-color: #fbfbfb;
+}
+.category-title {
+  font-size: 18px;
+  color: #3d3d3d;
+  margin: 0;
+  padding: 14px 199px 7px 18px;
+}
+.category-menu {
+  margin: 0;
+  padding-left: 30px;
+}
+.category-menu li {
+  list-style-type: none;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+}
+.category-menu a {
+  font-size: 15px;
+  color: #3d3d3d;
+  text-decoration: none;
+}
+.category-menu a:hover {
+  color: #46a358;
+}
+.right-box {
+  width: 840px;
+  float: right;
+}
+.header {
+  margin-bottom: 31px;
+  font-size: 15px;
+}
+.navigation {
+  margin: 0;
+  padding-left: 0;
+}
+.navigation-header {
+  float: left;
+  list-style-type: none;
+}
+.navigation-header a {
+  text-decoration: none;
+  color: #3d3d3d;
+  margin-right: 40px;
+  padding-bottom: 7px;
+}
+.navigation-header a:hover {
+  color: #46a358;
+  border-bottom: 2px solid #46a358;
+}
+.sorting {
+  float:right;
+}
+.sorting p {
+  float: left;
+  padding-right: 8px;
+  margin: 0;
+}
+.sorting button {
+  float: left;
+  border: none;
+  background-color: #ffffff;
+  padding: 0;
+}
+.cards {
+  margin: 0 -15px;
+}
+.cards-outside {
+  float: left;
+  padding: 0 15px 70px;
+}
+.cards-inside {
+  width: 260px;
+  min-height: 350px;
+}
+.cards-inside h3 {
+  margin: 0;
+  padding-top: 12px;
+  padding-bottom: 6px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.cards-inside p{
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #46A358;
+}
+.icons {
+  background-color: #fbfbfb;
+  min-height: 300px;
+}
+.list {
+  float: right;
+  margin-top: 20px;
+  padding: 0;
+}
+.list li {
+float: left;
+list-style-type: none;
+
+}
+.list a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  color: #3D3D3D;
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 9px;
+}
+.list a:hover {
+  font-weight:bold;
+  color: #FFFFFF;
+  background-color:#46A358;
+}
