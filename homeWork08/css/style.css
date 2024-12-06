@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.wrapper {
+    width: 1202px;
+    background-color: #FFFFFF;
+    margin: 0px auto;
+}
+.top-part {
+    width: 1200px;
+    height: 302px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.top-article {
+    display: flex;
+    background-image: linear-gradient(#FFFFFF 16%, #FBFBFB 16%);
+    width: 586px;
+}
+.top-description h3 {
+    width: 180px;
+    color: #3D3D3D;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 89px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-bottom: 9px;
+}
+.top-description p {
+    color: #727272;
+    text-align: right;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+.top-description button {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background: #46A358;
+    margin-left: auto;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-button svg {
+    margin-left: 5px;
+}
+.bottom-part {
+    width: 1202px;
+    height: 447px;
+    margin-top: 138px;
+}
+.bottom-part h2 {
+    color: #3D3D3D;
+text-align: center;
+text-transform: capitalize;
+font-size: 30px;
+font-weight: 700;
+line-height: 16px;
+}
+.bottom-propose {
+    color: #727272;
+text-align: center;
+font-size: 14px;
+line-height: 24px;
+padding-top: 15px;
+padding-bottom: 35px;
+}
+.bottom-article {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-information {
+    width: 268px;
+    height: 362px;
+    background: #FBFBFB
+}
+.bottom-date {
+    color: #46A358;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+padding-top: 8px;
+padding-left: 15px;
+}
+.bottom-information h3 {
+    color: #3D3D3D;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+padding: 4px 64px 4px 15px;
+}
+.bottom-article-text {
+    color: #727272;
+line-height: 22px; 
+padding-left: 15px;
+}
+.bottom-information a {
+    display: inline-flex;
+    color: #3D3D3D;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+text-decoration: none;
+margin: 9px 153px 13px 15px;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+.bottom-information a:hover {
+    color: #46A358;
+}
+.bottom-information a:hover path{
+    fill: #46A358;
+}
+.bottom-information svg {
+    margin-left: 5px;
+}
