@@ -4,15 +4,13 @@
 }
 .body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
 }
 .wrapper {
-    width: 1202px;
+    width: 1200px;
     background-color: #FFFFFF;
     margin: 0px auto;
 }
 .top-part {
-    width: 1200px;
     height: 302px;
     display: flex;
     justify-content: space-between;
@@ -47,11 +45,10 @@
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 500;
-    width: 140px;
-    height: 40px;
     border: none;
     border-radius: 6px;
     background: #46A358;
+    padding: 12px 29px;
     margin-left: auto;
     margin-right: 30px;
     display: flex;
@@ -62,7 +59,6 @@
     margin-left: 5px;
 }
 .bottom-part {
-    width: 1202px;
     height: 447px;
     margin-top: 138px;
 }
@@ -88,28 +84,29 @@ padding-bottom: 35px;
 }
 .bottom-information {
     width: 268px;
-    height: 362px;
     background: #FBFBFB
+}
+.bottom-text {
+    padding: 9px 11px 12px 15px;
 }
 .bottom-date {
     color: #46A358;
-font-size: 14px;
-font-weight: 500;
-line-height: 16px;
-padding-top: 8px;
-padding-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    padding-bottom: 4px;
 }
 .bottom-information h3 {
     color: #3D3D3D;
 font-size: 20px;
 font-weight: 700;
 line-height: 26px;
-padding: 4px 64px 4px 15px;
+padding-bottom: 4px;
 }
 .bottom-article-text {
     color: #727272;
 line-height: 22px; 
-padding-left: 15px;
+padding-bottom: 9px;
 }
 .bottom-information a {
     display: inline-flex;
@@ -118,7 +115,6 @@ font-size: 14px;
 font-weight: 500;
 line-height: 16px;
 text-decoration: none;
-margin: 9px 153px 13px 15px;
 text-align: center;
 justify-content: center;
 align-items: center;
