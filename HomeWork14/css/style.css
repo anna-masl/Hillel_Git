@@ -488,6 +488,10 @@
     justify-content: space-between;
     margin-bottom: 31px;
 }
+.right-box-header button {
+    background-color: transparent;
+    border: none;
+}
 .navigation {
     display: flex;
     padding: 0;
@@ -1142,7 +1146,12 @@
         z-index: 1;
         width: 200px;
         box-shadow: -5px 0 5px rgba(0,0,0,.3);
-        height: calc(100vh - 73px);
+    }
+    .left-box > a {
+    display: none;
+    }
+    .left-box {
+    padding-bottom: 0;
     }
     .right-box {
         width: 100%;
@@ -1179,5 +1188,87 @@
     .cards-outside {
         width: 100%;
     }
-
+    .welcome {
+    flex-direction: column;
+    }
+    .right-box-header {
+    align-items: center;
+    }
+    .navigation {
+        flex-direction: column;
+    }
+    .navigation a {
+        margin-right: 20px;
+    }
+    .sorting {
+        flex-direction: column;
+    }
+    .top-part {
+    flex-direction: column;
+    }
+    .top-article {
+        width: 100%;
+    }
+    .bottom-part {
+        height: 1450px;
+    }
+    .bottom-information {
+        width: 100%;
+    }
+    .footer {
+        margin-top: 50px;
+    }
+    .footer-section {
+        display: block;
+    }
+    .footer-article {
+        max-width: none;
+    }
+    .right-part-footer {
+        width: 100%;
+    }
+    .left-part-footer {
+        display: block;
+        width: 100%;
+    }
+    .line::after {
+        width: 187px;
+        height: 1px;
+    }
+    .second-footer-section {
+        display: block;
+        height: 100px;
+    }
+    .footer-article h3 {
+        padding-top: 0;
+        padding-left: 100px;
+    }
+    .footer-article p {
+        padding-left: 100px;
+    }
+    .second-part-footer-inside {
+        flex-direction: column ;
+        align-items: start;
+    }
+    .second-part-footer-inside .logo {
+        width: 75%;
+    }
+    .second-footer-section .address {
+        margin-left: 0;
+        max-width:none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .second-footer-section .email {
+        margin-left: 0;
+    }
+    .third-footer-section {
+        display: block;
+    }
+    .left-part-footer-inside {
+        padding: 15px 0;
+    }
+    .right-part-footer.third h3 {
+        padding-top: 15px;
+    }
 }
